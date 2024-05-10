@@ -1,18 +1,22 @@
-## Getting Started
+## Practica de Interfaz
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aquí se presentamos la practica de interfaz utilizando layouts 
 
-## Folder Structure
+## Ejemplo del Proyecto
+![image](https://github.com/MariaGisselie/Tarea-Interfaz/assets/169214799/1b1a54c8-d2a1-487e-bec5-5240c55f5ace)
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Campo de Texto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Se crea un campo de texto y se coloca en la esquina superior izquierda de un contenedor AnchorPane. Luego, el campo de texto se añade al contenedor para que sea visible en la pantalla.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## Resumen de los métodos agregarImagen y agregarLabel
+- Método agregarImagen:
+Función: Agrega una imagen a un AnchorPane desde una URL especificada.
+## Argumentos:
+- root: El AnchorPane al que se agregará la imagen.
+- imagenURL: La URL de la imagen que se va a cargar.
+- top: La posición vertical superior de la imagen dentro del AnchorPane.
+- left: La posición horizontal izquierda de la imagen dentro del AnchorPane.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
